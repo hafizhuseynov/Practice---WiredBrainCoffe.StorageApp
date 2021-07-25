@@ -20,7 +20,7 @@ namespace WiredBrainCoffee.StorageApp
             var organizationRepository = new ListRepository<Organization>();
             AddOrganizations(organizationRepository);
            WriteAllToConsole(organizationRepository);
-            Console.ReadLine(); 
+            
         }
 
         private static void AddManagers(IWriteRepository<Manager> managerRepository)
